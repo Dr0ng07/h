@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-   <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.green.min.css">
+    <link rel="stylesheet" href="main.css">
     <title>FSIML</title>
      <meta property="og:title" content="Mini Forum">
   <meta property="og:description" content="Its my second projekt FSIML">
@@ -22,18 +22,45 @@
     <h2>Funny story in my life</h2>
   </div>
   
-  <div class="link"> 
-     <ul>
+  <nav>
+    <ul>
+      <li><strong>FSIML</strong></li>
+    </ul>
+    <ul>
       <li><a href="review.html">Make your post</a></li>
-     </ul>
-  </div>
-  
+      <li><button class="secondary">make your post</li>
+    </ul>
+  </nav>
   <div class="posts">
-    <details class="post">
-     <summary>My first story</summary>
-      <p>Все началось в далеком 004</p>
-      </details>
+  <div class="post" data-post-id="1">
+    <details>
+      <summary>My first story</summary>
+      <p>С чего лучше всего начать обучение фронт-енду?</p>
+    </details>
+    <div id="comments"></div>
+   
+   
+    
+    <div class="comment-selection"></div>
+    <h5>Comment...</h5>
+    <div class="comment-list">
+      <div class="comment">
+        <p class="comment-author">Ivan:</p>
+        <p class="comment-text">Я считаю что нужно держаться покупать биток, и сербро</p>
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    <form class="comment-form">
+      <input type="text" name="username" placeholder="Your name" required>
+      <textarea name="comment" placeholder="Your comment" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </div>
+</div>
 
 </body>
 </html>
