@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme">
+    <title>review</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.classless.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.pumpkin.css">
+
+</head>
+<body>
+   <header>
+    <div>
+      <nav>
+          <h1>FSIML</h1>
+            <a href="index.html">Главная</a>
+            <a href="new">О нас</a>
+            <a href="review.html">Make post</a>
+      </nav>
+    </div>
+   </header>
+   
+   <main>
+    <form method="post" enctype="multipart/form-data">
+       <fieldset>
+        <legend>Make Post</legend>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+         
+        <label for="message">message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Text somethink"></textarea>
+        <button type="submit">Make</button>
+      </fieldset>
+       
+
+    </form>
+    
+
+   </main>
+   <footer>
+    &copy; <p>2025 Luigi Ricci</p>
+   </footer>
+</body>
+</html>
